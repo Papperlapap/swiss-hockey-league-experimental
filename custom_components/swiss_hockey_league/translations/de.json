@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Swiss Hockey National League",
+        "description": "Wähle die Teams aus, die du verfolgen möchtest.",
+        "data": {
+          "teams": "Teams"
+        }
+      }
+    },
+    "error": {
+      "no_team_selected": "Bitte wähle mindestens ein Team aus."
+    },
+    "abort": {
+      "already_configured": "Swiss Hockey League ist bereits konfiguriert."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Swiss Hockey League Einstellungen",
+        "description": "Verfolgte Teams aktualisieren.",
+        "data": {
+          "teams": "Teams"
+        }
+      }
+    },
+    "error": {
+      "no_team_selected": "Bitte wähle mindestens ein Team aus."
+    }
+  }
+}
