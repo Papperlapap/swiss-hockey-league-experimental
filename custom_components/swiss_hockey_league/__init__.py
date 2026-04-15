@@ -72,7 +72,7 @@ async def _async_register_card(hass: HomeAssistant) -> None:
     if CARD_URL in (hass.data.get("_swiss_hockey_registered") or ""):
         return
 
-    hass.http.async_register_static_path(CARD_URL, str(card_file), cache_headers=False)
+    hass.http.async_register_static_paths(CARD_URL, str(card_file), cache_headers=False)
     hass.data["_swiss_hockey_registered"] = CARD_URL
 
     _LOGGER.info(
